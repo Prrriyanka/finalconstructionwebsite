@@ -1,0 +1,1165 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+      scroll-behavior: smooth;
+      
+    }
+
+#servicesrow{
+    height: 20vw;column-gap: 2vw;padding-left: 2vw;padding-right: 2vw;padding-top: 2vw;padding-bottom: 2vw;
+}
+#section3ka1 h2{
+  background: black;padding: 1vw 0vw;width: 100%;text-align: center;font-size: 2vw;
+}
+#section3ka2 h2{
+  background: black;padding: 1vw 0vw;width: 100%;position: absolute;color: gray;text-align: center;font-size: 2vw;
+}
+#section3ka1 table{
+  display: flex;justify-content: center;align-items: center;padding-top: 8vw;
+}
+.tablerow td h4{
+  padding-left: 0.8vw;font-style: oblique;font-family: none;font-size: 1.5vw;
+}
+.col-75 input{
+  height: auto;width: 100%;font-size: 1.5vw;
+}
+
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.navbar{
+    
+    display: flex;
+    padding: 0px 0px 0px 0px;
+    z-index: 9999;
+    
+}
+.navlist{
+    width: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+
+.navlist li{
+    list-style: none;
+    padding: 20px 25px;
+    font-size: 18px;
+}
+.navlist li:hover{
+background-color: #fad11a;
+
+}
+
+.navlist li a{
+    text-decoration: none;   
+    color: white; 
+}
+
+nav select {
+    display: none;
+    background: black;
+    color: white;
+    width: 35vw;
+  }
+
+
+.select-selected {
+    color: #fad11a;
+  }
+  .select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+  .select-items div,.select-selected {
+    color: #ffffff;
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+    cursor: pointer;
+  }
+  /* Style items (options): */
+.select-items {
+  position: absolute;
+  background-color: #fad11a;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+  background-color:#fad11a;
+}
+.rightnav{
+    width: 50%;
+    text-align: right;
+    background: black;
+}
+ul li ul.dropdown{
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1000;    
+  }
+  ul li:hover ul.dropdown{
+    background: #fad11aa1;
+    display:block; /* Display the dropdown */
+  }
+  ul li ul.dropdown li :hover{
+    display: block;
+
+  }
+  ul li ul.dropdown li:hover{
+    display: block;
+    background: black;
+  }
+  #search{
+      padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+  }
+#topdiv{
+    background: #fad11a2c;
+    padding: 2.5vh;
+}
+.tablerowtop{
+  position: relative;
+  left: 10vw;
+  top: 0;
+  line-height: 2vw;
+}
+.tablerowdisplay{
+display: none;
+  
+}
+.boxmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: white;
+    padding: 10vw 25vw;
+    max-width: 50%;
+    align-items: center;
+    align-self: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.maintext{
+    padding: 20px 80px;
+    background: black;
+    opacity: 80%;
+}
+
+.welcometext{
+  font-size: 4vw;
+}
+
+.welnext{
+  padding-bottom: 2vw;
+  font-size: 1.5vw;
+}
+
+
+.sec1h4{
+  padding-left: 2vw;font-size: 1.3vw;padding-top: 2.3vw;padding-bottom: 1vw;
+}
+
+.sec1p{
+  padding-left: 2vw;font-size: 1.2vw; padding-top: 0;
+}
+
+.section1 img{
+  background-size: cover;
+  max-width: 100%;
+  height: auto;
+}
+
+form{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    stop-opacity: inherit;
+        
+}
+
+.welcometext{
+  text-align: center;
+    font-size: 4vw;
+    text-decoration: underline;
+    text-decoration-color: #fad11a;
+}
+
+input[name=butu]{
+  background-color: #fad11a;
+  border: 3px solid #fad11a;
+  color: black;
+  font-style: bold;
+  font-weight: bold;
+  font-size: 1vw;
+  text-decoration: none;
+  stop-opacity: inherit;
+  cursor: pointer;
+  padding: 1vw;
+}
+
+input[name=butt1]{
+  background-color: black;
+  border: 3px solid #fad11a;
+  color: #fad11a;
+  font-style: bold;
+  font-size: 1vw;
+  text-decoration: none;
+  stop-opacity: inherit;
+  cursor: pointer;
+ padding: 1vw;
+
+}
+
+#section2{
+  height: auto;
+  background: white;
+  display: inline-block;
+  width: 100%;
+
+}
+
+.abovecard{
+  background: #ffe4c4;
+    justify-content: center;
+    font-size: 2vw;
+    text-align: center;
+    font-family: revert;
+    color: rgba(82, 80, 80, 0.808);
+    padding: 1.5vw 1vw;
+    /* align-content: center; */
+    width: 100%;
+    margin: 0;
+}
+
+.aParent{
+  display: flex;
+}
+  .row{
+    display: flex;
+  }
+  /* Create four equal columns that floats next to each other */
+  .column {
+    justify-content: center;
+    display: inline-flex;
+    width: 32%;
+ }
+
+ .abovecard2{
+  padding: 4vw 5vw 2vw 5vw;
+  height: auto;
+  font-size: 2vw;
+  background: white;
+  color: #fad11a;
+  text-decoration: underline;
+  text-underline-position: left;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+ }
+
+ .bob{
+   font-size: 1.5vw;
+   padding-left: 2vw;
+ }
+
+ h4,p{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#firstimg2{display: none;}
+
+#section2ka1{
+  height: 60vw;
+}
+
+/* Create four equal columns that floats next to each other */
+.section2ka1 .column {
+  justify-content: center;
+  display: inline-flex;
+  width: 32%;
+  height: auto;
+}
+/* //////////////////////////////section 3//////////////////////////// */
+#section3{
+  height: 60vw;
+}
+
+
+.dotsss{
+  position: relative;top: 30vw;text-align: start;padding: 1vw;
+  padding-left: 23vw;
+}
+.faltext{
+  font-size: 1.3vw;
+}
+
+#sec4col1{
+  float: left;
+  width: 33.33%;
+  height: 3.7vw;
+  padding-top: 1.2vw;
+  text-align: center;
+  font-size: 2vw;
+  cursor: pointer;
+  color: white;
+}
+
+#sec4col2{
+  float: left;
+  width: 33.33%;
+  height: 3.7vw;
+  padding-top: 1.2vw;
+  text-align: center;
+  font-size: 2vw;
+  cursor: pointer;
+  color: #fad11a;
+}
+
+.containerTab {
+  padding: 0vw 2vw 4vw 2vw;
+  height: 42vw;
+  background: rgba(255, 208, 0, 0.59);
+  width: 90%;
+  margin: 2vw;
+  display: block;
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Closable button inside the container tab */
+.closebtn {
+  float: right;
+  color: white;
+  font-size: 2vw;
+  cursor: pointer;
+}
+/* #sec4col1{
+  float: left;
+  width: 33.33%;
+  height: 60px;
+  left: 160px;
+  top: 10px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+  color: white;
+  
+} */
+
+
+/* #sec4col2{
+float: left;
+width: 33.33%;
+height: 60px;
+left: 170px;
+text-align: center;
+font-size: 25px;
+top: 10px;
+padding-top: 15px;
+cursor: pointer;
+color: #fad11a;
+} */
+.slideshow-container {
+  width: 50%;
+  margin: 2rem auto; 
+  position: absolute;
+  left: 5vw;
+  height: 35vw;
+}
+
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  margin-top: 1vh;
+  padding: 1vw 3.5vw 1vw 3.5vw;
+  color: white;
+  font-weight: bold;
+  font-size: 2vw;
+  transition: 0.6s ease;
+  border-radius: 0 0.3vw 0.3vw 0;
+  user-select: none;
+}
+
+.next {
+
+  top: -250px;
+  right: 0;
+  left: 450px;
+}
+
+.prev {
+  left: -1vw;
+  top: -20vw;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text { 
+  color: black;
+  top: 0;
+  padding: 1vw 2vw;
+  position: relative;
+  bottom: 2vw;
+  width: 100%;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 2.5vw;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 1.33vw;
+  padding: 1vw 1vw 1vw 1vw;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 1.2vw;
+  width: 1.2vw;
+  margin: 0.4vw;
+  position: relative;
+ background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+.sidetext{
+    display: inline;
+    position: absolute;
+    left: 52vw;
+    top: 1vh;
+    width: 60%;
+    font-size: 1.8vw;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}  
+
+
+#section3ka1{
+  z-index: 99;
+  top: 0;
+  position: relative;
+  color: #ffffff96;
+  display: inline-block;
+
+}
+#section4{
+  padding-top: 3vw;
+  height: 50vw;
+  background: rgba(0, 0, 0, 0.637);
+  display: flex;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+
+.cpage{
+  line-height:550px;
+  background: #000000bb;
+  color: #fad11acb;
+  position: relative;
+  text-align: center;
+  left: 0;
+  width: 100%;
+}
+.tablerow{
+  background-color:rgba(0, 0, 0, 0);
+  line-height: 5vw;
+}
+
+
+  
+  .custom-style{
+    text-align: center;
+    position: relative;
+    left: 100px;
+    width: 300px;
+    height: 35px;
+    border: 2px solid;
+    border-radius: 6px;
+    font-size: 1rem;
+    margin: 0.25rem;
+    border-color: rgb(180, 180, 180);
+  }
+  #fb{ 
+    position: absolute;
+    left: 40vw;
+    background-color: #222222;
+    width: 3vw;
+    height: 3vw;
+    padding: 0 !important;
+    line-height: 3vw;
+    text-align: center;
+    border-radius: 1.5vw;
+  }
+  
+  #fb1{
+    position: absolute;
+    left: 45vw;
+    background-color: #222222;
+    width: 3vw;
+    height: 3vw;
+    padding: 0 !important;
+    line-height: 3vw;
+    text-align: center;
+    border-radius: 1.5vw;
+  }
+  
+  #fb2{
+    position: absolute;
+    left: 50vw;
+    background-color: #222222;
+    width: 3vw;
+    height: 3vw;
+    padding: 0 !important;
+    line-height: 3vw;
+    text-align: center;
+    border-radius: 1.5vw;
+  }
+  
+  #fb3{
+    position: absolute;
+    left: 55vw;
+    background-color: #222222;
+    width: 3vw;
+    height: 3vw;
+    padding: 0 !important;
+    line-height: 3vw;
+    text-align: center;
+    border-radius: 1.5vw;
+  }
+  
+/* //////// */
+
+
+
+#section3ka2{
+  z-index: 99;
+  top: 0;
+  position: relative;
+  color: #ffffff96;
+  display: inline-block;
+  width: 50%;
+  /* height: 100vh; */
+}
+/* Style inputs, select elements and textareas */
+.fname .phno .country .email{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+#formsubmit{
+  background-color: #fad11a;
+  color: white;
+  padding: 1vw 1vw;
+  border: none;
+  font-size: 1.3vw;
+  border-radius: 1vw;
+  cursor: pointer;
+  float: right;
+  position: relative;
+  left: 10vw;
+  display: flex;justify-content: center;top: 0;
+
+
+}
+
+
+/* Style the container */
+.container1 {
+  border-radius: 5px;
+  background-color: transparent;
+  padding-left: 10vw;
+  align-items: center;
+  position: relative;
+  padding-top: 11vw;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  font-style: oblique;
+  margin-right: 2vw;
+  float: left;
+  width: 25%;
+  font-weight: bold;
+  margin-top: 1vw;
+  font-size: 1.4vw;}
+
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  max-width: 100%;
+  font-size: 1vw;
+  margin-top: 3vw;
+  margin-left: 1vw;
+
+}
+
+/* Clear floats after the columns */
+.roow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* ////////////////////////chote device       111111111 ?????????????????????????? */
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75 {
+    width: 100%;
+    margin-top: 0;
+  }
+
+#firstimg{display: block;}
+#firstimg2{display: none;}
+#servicesrow{display: none} 
+}
+
+#section5{
+  height: 5vh;
+  padding: 1vw 1vw;
+  background: black;
+  display: block;
+  width: 100%;
+}
+
+
+/* ///////chote device///////// */
+@media (max-width: 960px) {
+  nav .navlist     { display: none; }
+  nav .rightnav {display: none;}
+  nav select { display:block; }
+  .topdiv .tablerowtop{display: none;}
+  .topdiv .tablerowdisplay{display: inline-block;}
+
+  .tablerowtop{
+    position: absolute;
+  left: 4vw;
+  display: inline-block;
+    top: 0;
+    
+  }
+
+  #section3ka1 table{
+    display: flex;justify-content: center;align-items: center;padding-top: 3vw;
+  }
+  .tablerow td h4{
+    padding-left: 0.8vw;font-style: oblique;font-family: none;font-size: 2.5vw;
+  }
+
+  .tablerow {
+line-height: 8vw; 
+ }
+
+ .rowsecond{
+   font-size: 2.5vw;
+ }
+  #section1{
+    background: url('bck1.jpg');
+    height: 40vh;
+    background-size: cover;
+}
+
+#section3{
+  height: 65vh;
+}
+
+.dot{
+  height: 3vw;
+  width: 3vw;
+}
+
+.containerTab{
+  height: 55vh;
+}
+.slideshow-container{
+  width: 100%;
+}
+.sidetext{
+  left: 3.5vw;
+  position: relative;
+  font-size:3vw;
+  top: 3vh;
+}
+
+.faltext{
+  font-size: 2.5vw;
+}
+
+.mySlides{
+  width: 80%;
+  padding-left: 3vw;
+}
+
+.prev {
+  left: 1vw;
+  top: -70vw;
+  font-size: 4vw;
+}
+.next {
+  top: -70vw;
+  right: 0;
+  left: 65vw;
+  font-size: 4vw;
+}
+
+.dotsss{
+  position: relative;
+  top: 60vw;
+  text-align: center;
+  padding: 2vw;
+}
+
+.text{
+  position: absolute;
+  top: 45vw;
+  left: -10vw;
+  color: white;
+  font-size: 4vw;
+}
+
+/* ///// */
+
+.row{
+  margin: auto;
+  justify-content: center;
+  display:inline;
+}
+.maintext{
+  padding: 5vw 9vw;
+}
+.aParent {
+  display: flex;
+  align-items: center;
+  justify-content: left;}
+
+.column{
+  padding-bottom: 2vw;
+  padding-left: 4vw;
+  justify-content: center;
+  display: inline;
+  padding-top: 4vw;
+}
+
+#firstimg{display: block;
+  padding: 1vw 6vw 1vw 7vw;}
+#firstimg2{display: none;}
+
+.sdcol{
+  font-size: 4vw;
+  color: #fad11a;
+}
+
+.sdp{
+  font-size: 3.5vw;
+}
+
+/* ////////worked butu and butt1////////// */
+
+input[name=butu]{
+  font-size: inherit;
+    padding: 3vw 6vw;
+}
+
+input[name=butt1]{
+  font-size: inherit;
+    padding: 3vw 6vw;
+}
+
+.abovecard{
+  font-size: 2.7vw;
+}
+
+.sec1h4{
+  font-size: 4.5vw;
+}
+
+.sec1p{
+  font-size: 4vw;
+}
+
+.abovecard2{
+  font-size: 4vw;
+}
+.bob{
+  font-size: 3.5vw;
+}
+#section2ka1{
+  height: 76vh;
+}
+
+
+/* ????????????section3ka1???????????????? */
+.section3ka1{
+  width: 100%;
+  height: 50vw;
+
+}
+
+#section4{
+  height: 115vw;
+  display: inline-grid;
+}
+
+#section3ka2{
+  width: 100%;
+}
+
+#section3ka1 h2{
+  font-size: large;
+}
+
+#section3ka2 h2{
+  font-size: large;
+}
+.col-25 {
+  /* font-style: oblique; */
+  /* margin-right: 2vw; */
+  /* float: left; */
+  /* width: 25%; */
+  /* font-weight: bold; */
+  /* margin-top: 1vw; */
+  font-size: 2.5vw;
+}
+
+.col-75 input{
+  height: 2vw;width: 100%;font-size: 1.5vw;
+}
+
+#formsubmit{
+  top: 1vw;
+  position: relative;
+  left: -15vw;
+}
+.container1 {
+    display: flex;
+    padding-top: 11vw;
+    padding-left: 0;
+    justify-content: center;
+}
+/* ((((((((((((((((((((((((NNNNEEEEEEEEWWWWWWWWWW)))))))))))))))))))))))) */
+
+.slideshow-container1 {
+  height: 60vw;
+  padding-left: 4vw;
+  padding-right: 4vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  position: absolute;
+  left: 1vw;
+}
+
+
+#servicesrow{display: none}
+/* .slideshow-container1{display: block;} */
+
+
+
+      
+      /* Slideshow container */
+      .slideshow-containernew {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+      }
+      
+      /* Caption text */
+      .textnew {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+      }
+      
+      /* Number text (1/3 etc) */
+      .numbertexte {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+      }
+      
+      /* The dots/bullets/indicators */
+      .dota {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+      }
+      
+      .active {
+        background-color: #717171;
+      }
+      
+      /* Fading animation */
+      .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+
+      .mySlidesnew{
+        border: 0.2px
+      }
+      
+      @-webkit-keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      @keyframes fade {
+        from {opacity: .4} 
+        to {opacity: 1}
+      }
+      
+      /* On smaller screens, decrease text size */
+      @media only screen and (max-width: 300px) {
+        .textnew {font-size: 11px}
+      }
+
+
+}
+
+
+/* ///////chote device///////// */
+/* ???????????????????????????????     not     working          ????????????????????????????? */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  nav .navlist  { display: none; }
+  nav .rightnav {display: none;}
+  nav select { display: block; }
+  .topdiv .tablerowtop{display: none;}
+  .topdiv .tablerowdisplay{display: inline-block;}
+
+  .tablerowdisplay{
+    position: absolute;
+    left: 4vw;
+    display: inline-block;
+    top: 0;
+    
+  } 
+
+
+
+  #section1{
+    background: url('bck1.jpg');
+    height: 60vh;
+    background-size: cover;
+}  
+
+.row sec1{
+  display: block;
+}
+
+.column sec1{
+  padding-bottom: 2vw;
+  padding-left: 4vw;
+}
+#section2ka1 .row {
+  display: flex;
+  height: 20vw;
+  padding: 4vw 3vw 4vw 3vw;
+  gap: 1.5vw;
+}
+
+#firstimg{display: block;}
+#firstimg2{display: none;}
+
+}
+
+/* ///////chote device        worked for welcome text    ??????????? ????      /////// */
+@media screen and ( max-height: 899px ) 
+and ( max-width: 550px ) 
+{
+#section2{
+  height: 60vh;
+  background:white;
+  display: inline-block;
+  width: 100%;
+  padding-bottom: 1vw;
+}  
+
+
+
+#firstimg{display: block;}
+#firstimg2{display: none;}
+
+
+/* ?????????worked for p1 p2 p3 images?????????? */
+#section2ka1 .row{display: none;}
+
+.maintext{
+  margin-top: 10vh;
+  opacity: 60%;
+  padding: 15vw;
+  background: rgba(0, 0, 0, 0.74);
+}
+.boxmain{
+  display: inline;
+  opacity: 60%;
+ }
+
+.welcometext{
+text-align: start;
+font-size: 9vw;
+}
+
+.welnext{
+padding-bottom: 6vw;
+font-size: 3.5vw;
+font-family: emoji;
+}
+
+
+}
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+   
+            #section1{
+                background: url('bck1.jpg');
+                height: 100vh;
+                background-size: cover;
+            }
+            .section1 img{
+              background-size: cover;
+              max-width: 100%;
+              height: auto;
+            }
+            #section2ka1 .row{
+              display: flex;
+              height: 40vw;
+              padding: 4vw 3vw 4vw 3vw;
+              gap: 1.5vw;
+            }
+
+            .slideshow-container1{display: none;}
+
+/* ?????????worked for p1 p2 p3 images?????????? */
+#section2ka1 .row{display: flex;}
+#section3ka1{
+  width: 50%;
+  height: 100vh; /* Should be removed. Only for demonstration */
+  }
+
+}
+
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+
+              #section1{
+                  background: url('bck1.jpg');
+                  height: 100vh;
+                  background-size: cover;
+              }
+              .section1 img{
+                background-size: cover;
+                max-width: 100%;
+                height: auto;
+              }
+              #section2ka1 .row{
+                display: flex;
+                height: 40vw;
+                padding: 4vw 3vw 4vw 3vw;
+                gap: 1.5vw;
+              }
+
+              .slideshow-container1{display: none;}
+/* ?????????worked for p1 p2 p3 images?????????? */
+#section2ka1 .row{display: flex;}
+  
+#section3ka1{
+  width: 50%;
+  height: 100vh; /* Should be removed. Only for demonstration */
+  }
+}
